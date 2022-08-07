@@ -124,30 +124,24 @@ public class MyClass {
         System.out.println("isTouchingGround = " + isTouchingGround);
         System.out.println("canDoubleJump = " + canDoubleJump);
         System.out.println("canFly = " + canFly);
+        System.out.println("");
 
-
-
+        // These will throw errors at compilation time
         // boolean boolC = 0;
         // boolean boolD = 1;
-
-
-
-
-
-
-
+        System.out.println("");
 
         System.out.println("The boolean data type does not have a minimum or maximum value, as shown");
         // boolean minBoolean = Boolean.MIN_VALUE;
         // boolean maxBoolean = Boolean.MAX_VALUE;
 
+        System.out.println("Lesson 20: ");
+        System.out.println("");
 
 
 
 
         System.out.println("");
-
-
 
     }
 }
