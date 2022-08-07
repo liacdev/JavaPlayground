@@ -107,6 +107,40 @@ public class MyClass {
         System.out.println("The minimum value for a char is " + minChar + " and the maximum value for a char is " + maxChar);
         System.out.println("");
 
+        System.out.println("Lesson 20: Java boolean variable type");
+        System.out.println("The boolean type is used for true and false values");
+        boolean boolA = true;
+        boolean boolB = false;
+        System.out.println("The output of a boolean is either " + boolA + " or " + boolB);
+        System.out.println("");
+
+        System.out.println("Boolean variable names are often written to indicate whether something is or true or not true");
+        boolean isTall = true;
+        boolean isTouchingGround = false;
+        boolean canDoubleJump = true;
+        boolean canFly = false;
+
+        System.out.println("isTall = " + isTall);
+        System.out.println("isTouchingGround = " + isTouchingGround);
+        System.out.println("canDoubleJump = " + canDoubleJump);
+        System.out.println("canFly = " + canFly);
+
+
+
+        // boolean boolC = 0;
+        // boolean boolD = 1;
+
+
+
+
+
+
+
+
+        System.out.println("The boolean data type does not have a minimum or maximum value, as shown");
+        // boolean minBoolean = Boolean.MIN_VALUE;
+        // boolean maxBoolean = Boolean.MAX_VALUE;
+
 
 
 
