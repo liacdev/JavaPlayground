@@ -2,6 +2,7 @@ package com.liac.learnjava;
 
 public class MyClass {
     public static void main(String[] args) {
+/*
         System.out.println("Lessons 14 and 15: Java code structure");
         System.out.println("Hello Crunchy!");
         System.out.println("Hello Schwifty!");
@@ -134,14 +135,53 @@ public class MyClass {
         System.out.println("The boolean data type does not have a minimum or maximum value, as shown");
         // boolean minBoolean = Boolean.MIN_VALUE;
         // boolean maxBoolean = Boolean.MAX_VALUE;
-
-        System.out.println("Lesson 20: ");
         System.out.println("");
 
 
-
-
+ */
+        System.out.println("Lesson 21: Java Operators ");
+        System.out.println("The simple assignment operator is the '=' equals sign");
+        System.out.println("It is used to assign the value on the right side to the variable on the left side");
+        int a = 20;
+        int b = 30;
+        System.out.println("We can print the contents of these variables");
         System.out.println("");
+        System.out.println("The value of 'a' is " + a + " and the value of 'b' is " + b);
+        System.out.println("");
+
+        System.out.println("The addition operator is used to add two or more numbers together");
+        System.out.println("The result can be stored in a variable");
+        int sum = a + b;
+        System.out.println("The sum of a + b is " + sum);
+        int c = 50;
+        System.out.println("A variable can be changed by reassigning the value");
+        System.out.println("We don't need to specify the type when we reuse a variable");
+        sum = a + b + c;
+        System.out.println("The sum of a + b + c is " + sum);
+        System.out.println("Finally, concatenation means adding strings with other strings and variables");
+        System.out.println();
+        System.out.println("The sum of " + a + " + " + b + " + " + c + " is " + sum);
+        System.out.println("");
+
+        System.out.println("The subtraction operator will return the difference of two numbers");
+        int difference = sum - c;
+        System.out.println("The difference of sum - c = " + difference);
+        System.out.println("");
+
+        System.out.println("Can we subtract more than one number?  Let's find out.");
+        difference = sum - c - b;
+        System.out.println("The difference of sum - c - b = " + difference);
+        System.out.println("We could also write " + sum + " - " + c + " - " + b + " = " + difference);
+        System.out.println("");
+
+        System.out.println("Java will also allow us to subtract a larger number from a smaller number to result in a negative difference");
+        difference = a - c;
+        System.out.println("a - c = " + difference);
+        System.out.println("");
+
+        System.out.println("Multiplication");
+        System.out.println("");
+
 
     }
 }
