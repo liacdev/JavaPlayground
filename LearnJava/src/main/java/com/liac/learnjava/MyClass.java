@@ -37,7 +37,7 @@ public class MyClass {
         System.out.println("An int has a capacity of 32 bits");
         System.out.println("The int can hold ");
 
-        System.out.println("Lesson 18: Java long, float, and double variable types");
+        System.out.println("Lesson 18: float, and double variable types");
         System.out.println("A long is twice as big as an int");
         System.out.println("A long holds 64 bits");
         long bigNumber = 1234567890123456789L;
@@ -45,20 +45,102 @@ public class MyClass {
         System.out.println("If you don't add the 'L' at the end of the number, Java will assume it is an int type");
         System.out.println("The long we declared as bigNumber is: " + bigNumber);
         System.out.println("This is done because Java does not want to reserve a huge storage space in case we only want to use a small number");
-        float celsius = 45.9f;
+        System.out.println("");
+
         System.out.println("A float is a number with a decimal point and must be declared with an 'f' at the end");
-        System.out.println("The value of our celsius float is: " + celsius);
-        System.out.println("A double is more precise internally than a float");
+        System.out.println("A float holds 32 bits, like an int");
+        float minFloat = Float.MIN_VALUE;
+        float maxFloat = Float.MAX_VALUE;
+        System.out.println("The minimum value for a float is " + minFloat + " and the maximum value for a float is " + maxFloat);
+        System.out.println("");
+
+        System.out.println("A double holds 64 bits, like a long");
         System.out.println("The capacity of a double is larger than a float");
-        double height = 5.9;
+        System.out.println("A double is more precise internally than a float");
         System.out.println("A double can be declared with a 'd' or without");
         System.out.println("All floating point types default to a double if they are not specified with an 'f' at the end");
-        System.out.println("A float holds 32 bits, like an int");
-        System.out.println("A double holds 64 bits, like a long");
-        System.out.println("Doubles are used for more precision");
+        double minDouble = Double.MIN_VALUE;
+        double maxDouble = Double.MAX_VALUE;
+        System.out.println("The minimum value for a double is " + minDouble + " and the maximum value for a double is " + maxDouble);
         System.out.println("");
 
         System.out.println("Lesson 19: Java byte and char variable types");
+        System.out.println("An int is a whole number that holds 32 bits");
+        System.out.println("");
+
+        System.out.println("A byte holds 8 bits of data");
+        byte minByte = Byte.MIN_VALUE;
+        byte maxByte = Byte.MAX_VALUE;
+        System.out.println("The minimum value for a byte is " + minByte + " and the maximum value for a byte is " + maxByte);
+        System.out.println("");
+
+        System.out.println("A short holds 2 bytes of data (16 bits)");
+        short minShort = Short.MIN_VALUE;
+        short maxShort = Short.MAX_VALUE;
+        System.out.println("The minimum value for a short is " + minShort + " and the maximum value for a short is " + maxShort);
+        System.out.println("");
+
+        System.out.println("An int holds four bytes (32 bits)");
+        int minInt = Integer.MIN_VALUE;
+        int maxInt = Integer.MAX_VALUE;;
+        System.out.println("The minimum value for an int is " + minInt + " and the maximum value for an int is " + maxInt);
+        System.out.println("");
+
+        System.out.println("A char holds two bytes (16 bits) and is used to hold only one character");
+        char charC = 'C';
+        char charH = 'h';
+        char charA = 'a';
+        char charR = 'r';
+
+        System.out.println(charC);
+        System.out.println(charH);
+        System.out.println(charA);
+        System.out.println(charR);
+        System.out.println("");
+
+        System.out.println(charC + charH + charA + charR);
+        System.out.println("charC + charH + charA + charR");
+        System.out.println("");
+
+        char minChar = Character.MIN_VALUE;
+        char maxChar = Character.MAX_VALUE;
+        System.out.println("The minimum value for a char is " + minChar + " and the maximum value for a char is " + maxChar);
+        System.out.println("");
+
+        System.out.println("Lesson 20: Java boolean variable type");
+        System.out.println("The boolean type is used for true and false values");
+        boolean boolA = true;
+        boolean boolB = false;
+        System.out.println("The output of a boolean is either " + boolA + " or " + boolB);
+        System.out.println("");
+
+        System.out.println("Boolean variable names are often written to indicate whether something is or true or not true");
+        boolean isTall = true;
+        boolean isTouchingGround = false;
+        boolean canDoubleJump = true;
+        boolean canFly = false;
+
+        System.out.println("isTall = " + isTall);
+        System.out.println("isTouchingGround = " + isTouchingGround);
+        System.out.println("canDoubleJump = " + canDoubleJump);
+        System.out.println("canFly = " + canFly);
+        System.out.println("");
+
+        // These will throw errors at compilation time
+        // boolean boolC = 0;
+        // boolean boolD = 1;
+        System.out.println("");
+
+        System.out.println("The boolean data type does not have a minimum or maximum value, as shown");
+        // boolean minBoolean = Boolean.MIN_VALUE;
+        // boolean maxBoolean = Boolean.MAX_VALUE;
+
+        System.out.println("Lesson 20: ");
+        System.out.println("");
+
+
+
+
         System.out.println("");
 
     }
